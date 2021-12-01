@@ -1,6 +1,6 @@
 # Globe
 
-## Seu negócio rural além das fronteiras
+## É o negócio rural além das fronteiras
 ### A sua principal fonte de soluções e ferramentas digitais no mercado da agricultura.
 
 #### - Mais oportunidades
