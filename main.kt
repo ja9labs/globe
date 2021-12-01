@@ -4,12 +4,12 @@ package registro.globe
 
 
 fun main() {
-    println("Hello, " + "$name")
+    println ("Hello, " + "$name")
     
 }
   
 fun register-product {
-    println("Enter your product")
+    println. ("Enter your product")
 }
 
 
