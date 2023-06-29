@@ -3,11 +3,11 @@ package registro-globe
 /* Deve atender aos requisitos da Normativa Conjunta nº 02/2018 [RF005] */
 
 data class Product {
-  var product-name: String = "product-name1"
+  var productname: String = "product-name1"
   var variedade: String = "Variedade"
   var peso: String = "0,000" + "kg"
-  var lote-id: Int = "000000"
-  var receive-Data: Int = "00/00/0000"
+  var loteid: Int = "000000"
+  var receivedata: Int = "00/00/0000"
 
 /*
 [Normativa Conjunta nº 02/2018: O rastreio de culturas deve seguir as definições da norma. [RF005]]
@@ -51,15 +51,19 @@ DADOS DA VENDA
 */
 
     inner class comprador {
-     var comprador-name: String = "12345-000"
-     var CPF, CNPJ, : String = "Rua do Banco"
-     /* e/ou (quando em localidade rural) */
+     var compradorname: String = "12345-000"
+     var CPFCNPJ: String = "Rua do Banco"
+     
+      /* e/ou (quando em localidade rural) 
+      
+      coordenada: latitude e longitude */
+    
      var coordenada: String = "coordenada"
 
         inner class comprador-adress {
          var cep: String = "12345-000"
          var street: String = "Rua do Banco"
-         var adress-number: String = "1"      
+         var adressnumber: String = "1"      
          var location: String = "Bairro"
          var city: String = "Cidade"
          var state: String = "Estado"
@@ -70,8 +74,8 @@ DADOS DA VENDA
     }
 
     inner class fornecedor {
-      var fornecedor-name: String = "12345-000"
-      var CPF, CNPJ, : String = "Rua do Banco"
+      var fornecedorname: String = "12345-000"
+      var CPFCNPJ: String = "Rua do Banco"
       /* e/ou (quando em localidade rural) */
       var coordenada: String = "coordenada"
  
@@ -99,7 +103,7 @@ DADOS DA VENDA
 
 
 fun main()  {
-  val product-name1 = product-()
+  val productname1 = product-()
   println(product-name1.product-Info())
 
 }
