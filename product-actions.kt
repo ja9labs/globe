@@ -1,8 +1,8 @@
 class Plantio {
-    val Data: Int
+    val data: String
     val hora: Int
     val quantidade: Int
-    val responsável: String
+    val responsavel: String
     val localidade: String
     val lote: Int
     val qr code:
