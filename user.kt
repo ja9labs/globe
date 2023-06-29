@@ -11,7 +11,7 @@ data class user {
   inner class useradress {
       val cep: String = "12345-000"
       val street: String = "Rua do Banco"
-      val adress-number: String = "1"      
+      val adressnumber: String = "1"      
       val location: String = "Bairro"
       val city: String = "Cidade"
       val state: String = "Estado"
@@ -26,7 +26,7 @@ data class user {
   
   fun getcep() = "$cep"
   fun getstreet() = "$street"
-  fun getadress-number() = "$adress-number"
+  fun getadressnumber() = "$adress-number"
   fun getlocation() = "$location"
   fun getcity() = "$city"
   fun getstate() = "$state"
