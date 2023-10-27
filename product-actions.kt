@@ -5,8 +5,8 @@ class Plantio {
     val responsavel: String
     val localidade: String
     val lote: Int
-    val qr code:
-    val código de barras: 
+    val qr code: String
+    val codigo de barras: String
     val id de registro: Int
 }
 
